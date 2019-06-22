@@ -1,0 +1,11 @@
+server:
+	nginx
+	flask
+	R script
+
+bucket:
+	sns topic
+
+sns:
+	send event to servers' http endpoint
+
