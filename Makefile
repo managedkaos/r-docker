@@ -7,6 +7,10 @@ docker:
 		--user docker \
 		r-base \
 		/usr/bin/Rscript hello.r
+
+pip:
+	pip install -U -r requirements.txt
+
 flask:
 	/usr/bin/env python hello.py
 
